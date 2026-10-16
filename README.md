@@ -5,7 +5,7 @@ A reading list on frontend component libraries, CSS fundamentals, and backend ba
 ## CSS / Tailwind
 
 - [MDN: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): the most authoritative place to look up what each CSS layer actually means.
-- Tailwind: not used in the project I'm currently working on, but the utility-first approach is worth understanding, it's related to how shadcn-style components are styled.
+- Tailwind: the utility-first approach is worth understanding on its own, it's also related to how shadcn-style components are styled.
 
 ## Component Libraries, Web Design Principles
 
@@ -14,7 +14,7 @@ The goal isn't to memorize any single library's API, it's to understand how a we
 - [MUI docs](https://mui.com/material-ui/getting-started/): a React implementation of Material Design, with components tightly coupled to a design spec, good for building intuition first.
 - [Ant Design spec](https://ant.design/docs/spec/introduce-cn): a design system for enterprise admin dashboards, goes deep into component design principles.
 
-The project I'm currently working on is built with shadcn. shadcn is flexible (no fixed styling, you copy the code into your project and customize it), which makes it harder to learn from, unlike MUI/Ant Design which come with full specs and docs that are easier to start with. So the suggested order is: build a few demo pages with MUI or Ant Design first, understand what common components (Button, Dialog, Table, Form) each solve and why they're shaped that way, then come back to shadcn, it'll make a lot more sense.
+shadcn is a popular choice these days. It's flexible (no fixed styling, you copy the code into your project and customize it), which makes it harder to learn from, unlike MUI/Ant Design which come with full specs and docs that are easier to start with. So the suggested order is: build a few demo pages with MUI or Ant Design first, understand what common components (Button, Dialog, Table, Form) each solve and why they're shaped that way, then come back to shadcn, it'll make a lot more sense.
 
 ## Backend
 
